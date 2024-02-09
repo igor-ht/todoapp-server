@@ -5,7 +5,7 @@ import userRouter from './routers/user/userRouter';
 
 const server = express();
 
-server.use(cors({ origin: ORIGIN }));
+server.use(cors({ origin: '*' }));
 
 server.use(express.json());
 
