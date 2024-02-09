@@ -1,6 +1,6 @@
+import { ORIGIN } from './config';
 import express from 'express';
 import cors from 'cors';
-import { ORIGIN } from './config';
 import userRouter from './routers/user/userRouter';
 
 const server = express();
