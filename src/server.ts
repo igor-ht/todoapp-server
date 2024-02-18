@@ -5,7 +5,7 @@ import { ORIGIN } from './config';
 
 const server = express();
 
-server.use(cors({ origin: ORIGIN }));
+server.options('*', cors({ origin: ORIGIN || '*' }));
 
 server.use(express.json());
 
