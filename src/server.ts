@@ -1,4 +1,3 @@
-import { ORIGIN } from './config';
 import express from 'express';
 import cors from 'cors';
 import userRouter from './routers/user/userRouter';
